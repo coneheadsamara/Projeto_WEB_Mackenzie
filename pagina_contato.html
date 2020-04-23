@@ -1,0 +1,135 @@
+<!doctype HTML>
+
+<html>
+
+<head>
+  <title> Fale conosco </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet_geral.css" />
+  <style>
+
+
+
+  form {
+
+    text-align:left;
+    margin-left: 60px;
+    margin-top: 20px;
+
+
+  }
+
+  h1{
+    font-family: Verdana;
+    color: #1E90FF;
+
+
+
+  }
+
+  article{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 20px;
+    text-align:left
+
+  }
+
+  footer{
+    color:cornflowerblue;
+  }
+
+  p{
+    color:black;
+    font-family:Arial;
+    font-size:18;
+    font-weight:bold;
+
+  }
+
+  #enviar{
+    margin-left: 70px;
+
+  }
+
+  #cadastro {
+    text-align: right;
+  }
+
+
+  </style>
+
+</head>
+
+<body >
+  <div id="cadastro">
+      <a href="#"> <img src="sejadigi.PNG" alt="sejadigi" />
+        </div>
+
+  <header>
+      <nav id="menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  </br>
+
+<article>
+
+  <h1> Fale conosco! </h1>
+  <p>Deixe seu elogio, dúvida, comentário ou sugestão!</p>
+
+  <form method="post">
+    <label> Nome:  </label> <input name="FormularioNome" type="text" autofocus maxlength="30">
+  </br>
+</br>
+<label> Sexo: </label> <input name="SexoF" type="radio" value="Feminino" required>
+<label for="Feminino">Feminino</label>
+<input name="SexoF" type="radio" value="Masculino" required>
+<label for="Masculino">Masculino</label><br>
+</br>
+<label>E-mail: </label> <input name ="email" type="email">
+</br>
+</br>
+<label>Data de Nascimento:</label>
+<input type="date" name="dataNascimento">
+</br>
+</br>
+</br>
+<label>Sobre o que você quer falar? &nbsp</label> <input name="assunto" type="text" maxlength="100" size="50">
+</br>
+</br>
+<label>Deixe aqui embaixo a sua mensagem! </label>
+</br>
+</br>
+<textarea rows="10" cols="40" maxlength="500"  required> </textarea>
+</br>
+</br>
+</br>
+<label>Você já é nosso cliente? &nbsp </label><input name="cliente" type="radio" value="Sim" required>
+<label for="Sim">Sim</label>
+<input name="cliente" type="radio" value="Não" required>
+<label for="Não">Não</label><br>
+</br>
+</br>
+</form>
+
+<button id="enviar" type="submit" > Enviar! </button>
+
+</br>
+<figure>
+  <img src="computador.GIF" alt="computador" width="400" >
+  <figcaption>Te responderemos o mais breve possível! </figcaption>
+</figure>
+</article>
+</br>
+<footer>
+
+</footer>
+
+</html>
