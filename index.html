@@ -18,6 +18,14 @@
 
   }
 
+  body {
+    background-image: url("./bg.jpg");
+    background-size:125%;
+    background-repeat: no-repeat;
+
+
+  }
+
   footer{
     text-align:center;
     align-content:center;
@@ -52,7 +60,7 @@
 
   #conheca_o_produto {
     padding: 20px;
-    margin: 20px 500px 20px 500px;
+    margin: 100px 800px 20px 500px;
     background-color: lightgrey;
 
 
@@ -107,13 +115,10 @@
 
     <article id="conheca_o_produto" class="shadow p-3 mb-5 bg-white rounded">
       <h1 id="conheca_o_chip">" "</h1>
-      <p> Com o o DigiMobile, você pode controlar todos os seus gastos através do seu celular, sem precisar pagar nada a mais por isso! </p>
-      <img id="celular" src="celular.jpg" alt="celular" width="80%" class="rounded-lg">
+      <p> Chega de dor de cabeça. Nosso chip é o melhor do mercado, e podemos te provar isso :) </p>
     </article>
 
   </br>
-</br>
-</br>
 
 
 
@@ -142,7 +147,7 @@ function escreveNomeUsuario () {
     nome = window.prompt ("Qual o seu nome? Digite um nome válido");
   }
 
-  document.getElementById("conheca_o_chip").innerHTML = "E aí, <b>" + nome + "</b>? Que tal conhecer o chip que veio para mudar a sua vida?";
+  document.getElementById("conheca_o_chip").innerHTML = "E aí, <b>" + nome + "</b>? Ta prontx para conhecer o chip que vai mudar a sua <b>vida</b>?";
 
 }
 escreveNomeUsuario();
